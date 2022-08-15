@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
@@ -8,8 +8,9 @@
     <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
+    <Folder Include="Assets\Tiles\" />
     <AvaloniaResource Include="Assets\**" />
+    <Folder Include="ViewModels\Tiles\" />
     <None Remove=".gitignore" />
   </ItemGroup>
   <ItemGroup>
